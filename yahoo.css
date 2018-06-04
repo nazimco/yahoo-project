@@ -1,0 +1,130 @@
+
+
+@media only screen and (min-width: 768px) {
+
+}
+
+/* header */
+
+header {
+  position: fixed;
+  /* top: 0;
+  left: 0; */
+  width: 100%;
+}
+
+
+.logo {
+  position: fixed;
+  top: -10px;
+  left: -29px;
+}
+
+form {
+  /* padding: 0px 10000px 0px 0px; */
+  margin: 3px 63px;
+}
+
+::placeholder {
+  font-family: Verdana;
+  color: #B5B0B0;
+}
+
+p.user_name {
+  color: gray;
+  /* text-align: justify; */
+  right: 80px;
+  white-space: nowrap;
+}
+
+.user_name {
+  position: absolute;
+    top: 0px;
+    right: 2px;
+  }
+
+  /* style */
+
+
+  .boarder {
+
+    background-image:url("https://preview.ibb.co/ij6Cky/background.png");
+background-repeat: no-repeat;
+position: relative;
+background-position:50% 50%;
+position: fixed;
+  top: 8%;
+  width: 100%;
+   /* height:50%; */
+   /* padding-top: 100%; */
+   background-size: cover;
+
+
+      /* background-image:url("https://preview.ibb.co/ij6Cky/background.png");
+      background-repeat: no-repeat;
+        position: relative;
+        background-position:50% 50%;
+        position: fixed;
+        top: 10%;
+        height: 100%;
+        width: 100%;
+        background-size: cover; */
+  }
+
+
+html {
+  /* background: url("https://preview.ibb.co/ij6Cky/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed; */
+
+
+
+  /* background: url("https://preview.ibb.co/ij6Cky/background.png")no-repeat center center fixed; */
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+  /* background-size: cover; */
+}
+
+
+section {
+
+  box-sizing: border-box;
+      width: 100%;
+      /* border: 5px solid red; */
+      position: relative;
+      padding-top: 15%;
+
+
+
+
+  /* background-size: 100%;
+    height: 100%;
+    width: 100%; */
+
+  /* background-image:url("https://preview.ibb.co/ij6Cky/background.png");
+  background-repeat: no-repeat;
+    position: relative;
+    background-position:50% 50%;
+    position: fixed;
+    top: 10%;
+    height: 100%;
+    width: 100%;
+    background-size: cover; */
+
+}
+
+.today {
+  color: black;
+  /* float: right; */
+    /* padding: 0em 0 0em 0em; */
+text-align: right;
+  /* white-space: nowrap; */
+}
+
+  h1, h2, h3 {
+    color: transparent;
+  }
