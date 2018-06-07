@@ -1,15 +1,7 @@
-
-
-@media only screen and (min-width: 768px) {
-
-}
-
+/* a lot of use of fixed and absolute positioning, this is what is effecting your responsiveness */
 /* header */
-
 header {
   position: fixed;
-  /* top: 0;
-  left: 0; */
   width: 100%;
 }
 
@@ -21,73 +13,37 @@ header {
 }
 
 form {
-  /* padding: 0px 10000px 0px 0px; */
   margin: 3px 63px;
 }
-
-::placeholder {
+/* include the reference for the psudo element */
+input::placeholder {
   font-family: Verdana;
   color: #B5B0B0;
 }
 
 p.user_name {
   color: gray;
-  /* text-align: justify; */
   right: 80px;
   white-space: nowrap;
 }
 
 .user_name {
   position: absolute;
-    top: 0px;
-    right: 2px;
-  }
+  top: 0px;
+  right: 2px;
+}
 
-  /* style */
-
-
-  .bkpicture {
-
-    background-image:url("https://preview.ibb.co/ij6Cky/background.png");
-background-repeat: no-repeat;
-position: relative;
-background-position:50% 50%;
-position: fixed;
+/* style */
+.bkpicture {
+  background-image:url("https://preview.ibb.co/ij6Cky/background.png");
+  background-repeat: no-repeat;
+  position: relative;
+  background-position:50% 50%;
+  position: fixed;
   top: 8%;
   width: 100%;
   height: 900px;
-   /* height:50%; */
-   /* padding-top: 100%; */
-   background-size: cover;
-
-
-      /* background-image:url("https://preview.ibb.co/ij6Cky/background.png");
-      background-repeat: no-repeat;
-        position: relative;
-        background-position:50% 50%;
-        position: fixed;
-        top: 10%;
-        height: 100%;
-        width: 100%;
-        background-size: cover; */
-  }
-
-
-html {
-  /* background: url("https://preview.ibb.co/ij6Cky/background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed; */
-
-
-
-  /* background: url("https://preview.ibb.co/ij6Cky/background.png")no-repeat center center fixed; */
-  /* -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; */
-  /* background-size: cover; */
+  background-size: cover;
 }
 
 i {
@@ -95,44 +51,25 @@ i {
 }
 
 section {
-
   box-sizing: border-box;
-      width: 100%;
-      border-bottom: 0.1px solid #d8d8d8;
-      background-color: transparent;
-      text-align: right;
-      color: white;
-      font-family: monospace;
-       font-size: 15px;
-       position: absolute;
-         top: 0px;
-         right: 10px;
-
-
-
-
-
-
-  /* background-size: 100%;
-    height: 100%;
-    width: 100%; */
-
-  /* background-image:url("https://preview.ibb.co/ij6Cky/background.png");
-  background-repeat: no-repeat;
-    position: relative;
-    background-position:50% 50%;
-    position: fixed;
-    top: 10%;
-    height: 100%;
-    width: 100%;
-    background-size: cover; */
-
+  width: 100%;
+  border-bottom: 0.1px solid #d8d8d8;
+  background-color: transparent;
+  text-align: right;
+  color: white;
+  font-family: monospace;
+  font-size: 15px;
+  position: absolute;
+  top: 0px;
+  right: 10px;
 }
 
 .today {
   color: black;
-  /* float: right; */
-    /* padding: 0em 0 0em 0em; */
-text-align: right;
-  /* white-space: nowrap; */
+  text-align: right;
+}
+
+/*generally declare media queries at the bottom of the document */
+@media only screen and (min-width: 768px) {
+
 }
